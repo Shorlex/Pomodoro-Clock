@@ -1,0 +1,113 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Dancing Script', cursive;
+  }
+  body{
+    background-color: #0d6efd;
+  }
+  .cont1{
+    height: 600px;
+    width: 400px;
+    margin-top: 30px;
+    border-radius: 40px;
+    box-shadow: -5px -5px 30px #3089e2, 5px 5px 10px #0567ca;
+  }
+  .cont2{
+    padding:  3px;
+    border-radius: 15px;
+    opacity: 0.3;
+  }
+  .cont3{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    box-shadow: -5px -5px 30px #3089e2, 5px 5px 10px #0567ca;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .text{
+    font-size: 35px;
+    text-align: center;
+    color: blue;
+  }
+  .col-4{
+    height: 50px;
+    width: 50px;
+    font-size:25px;
+    text-align: center;
+    padding: 0;
+    box-shadow: -5px -5px 30px #3089e2, 5px 5px 10px #0567ca;
+  }
+  .btn{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 25px;
+    font-weight: bolder;
+    padding: 0;
+    box-shadow: -10px -10px 30px #61a8f0, 10px 10px 30px #055cb4;
+  }
+  .break_session{
+    color: aliceblue;
+    font-size: 18px;
+    text-align: center;
+  }
+  .main_row{
+    padding: 15px 40px;
+  }
+  .timer{
+    font-size: 100px;
+  }
+  .session{
+    font-size: 50px;
+  }
+  .timer, .session{
+    color:aliceblue;
+  }
+  #start_stop{
+    width: 70px;
+  }
+  .fa-pause{
+    margin-left: 3px;
+  }
+  #session-length, #break-length{
+    color: aliceblue;
+  }
+
+
+@media screen and (max-width: 600px){
+  .cont1{
+    width: 85%;
+    margin-top: 10px;
+    padding: 2px !important;
+  }
+  .cont2{
+    margin-top: 10px;
+  }
+  .main_row{
+    padding: 0 !important;
+    margin-top: 20px;
+    width: 99%;
+    margin-left: 3px;
+  }
+  .col{
+    width: 50%;
+    padding: 0 !important;
+  }
+  .col-4{
+    width: 30%;
+  }
+  #break-decrement, #break-increment{
+    width: 50%;
+    height: 70%;
+  }
+  #session-decrement, #session-increment{
+    width: 50%;
+    height: 70%;
+  }
+  .cont3{
+    margin-top: 50px;
+  }
+}
